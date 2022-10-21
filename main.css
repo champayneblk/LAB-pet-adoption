@@ -1,0 +1,50 @@
+
+.buttons {
+  text-align: center;
+}
+
+.button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1% 30% 3% 30%;
+  border-radius: 60%;
+}
+
+#app{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 6.25%;
+  flex-direction: row;
+}
+
+#app > * {
+  flex: 0 1 25%;
+  margin-bottom: 15px;
+}
+
+ .card-header{
+background-color: palegreen;
+ }
+
+.dog{
+  background-color: blue;
+}
+.dino{
+  background-color: orange;
+}
+.cat
+{
+  background-color: lightblue;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+img{
+  width: 100%;
+}
